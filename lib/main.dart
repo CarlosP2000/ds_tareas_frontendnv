@@ -10,7 +10,7 @@ class RutasApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.orange),
+      theme: ThemeData(primarySwatch: Colors.blue),
       routes: {
         '/': (context) => FirstScreen(),       //asignacion de ruta1 
         '/second': (context) => MainTrips(),   //asignacio de ruta2
