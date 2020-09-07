@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 //Importar otros archivos (pantallas)
-import 'page4.dart';
+import 'ViewTicket.dart';
 import 'CreateTicket.dart';
 import 'Page3.dart';
 
@@ -19,7 +19,7 @@ class _MainTrips extends State<MainTrips> {
   int indexTap = 0;
 
   //Lista de pantallas
-  final List<Widget> widgetsChildren = [Page4(), CreateTicket(), Page3()];
+  final List<Widget> widgetsChildren = [ViewTicket(), CreateTicket(), Page3()];
 
   void onTapped(int index) {
     setState(() {
