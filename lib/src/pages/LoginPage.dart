@@ -47,10 +47,15 @@ class FirstScreen extends StatelessWidget {
   }
 
   Widget createLoginButton(){
-    return Container(padding:const EdgeInsets.only(top:32),
+    
+    return Container(padding:const EdgeInsets.only(top:50),
+    height: 105.0,
     child: RaisedButton(
+    color: Colors.orange,
+    shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
     child: Text('INGRESAR'), 
-    onPressed:(){Navigator.pushNamed(context, '/second');} ,),); //funcion vacia para el boton
+    onPressed:(){Navigator.pushNamed(context, '/second');} ,),);
+  
   }
 
 

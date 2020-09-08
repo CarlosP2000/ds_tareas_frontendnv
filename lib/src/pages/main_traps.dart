@@ -1,10 +1,12 @@
-
 import 'package:flutter/material.dart';
+
+
+
 
 //Importar otros archivos (pantallas)
 import 'ViewTicket.dart';
 import 'CreateTicket.dart';
-import 'Page3.dart';
+import 'HelpPage.dart';
 
 
 
@@ -19,7 +21,7 @@ class _MainTrips extends State<MainTrips> {
   int indexTap = 0;
 
   //Lista de pantallas
-  final List<Widget> widgetsChildren = [ViewTicket(), CreateTicket(), Page3()];
+  final List<Widget> widgetsChildren = [ViewTicket(), CreateTicket(), HelpPage()];
 
   void onTapped(int index) {
     setState(() {
@@ -46,8 +48,7 @@ class _MainTrips extends State<MainTrips> {
                 icon: Icon(Icons.create), title: Text("CREAR TICKET")),
             BottomNavigationBarItem(
                 icon: Icon(Icons.view_list), title: Text("VER TICKET")),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.help), title: Text("HELP"))
+            BottomNavigationBarItem(icon: Icon(Icons.help), title: Text("HELP"))
           ],
         ),
       ),

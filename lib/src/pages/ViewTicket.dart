@@ -22,14 +22,15 @@ class ViewTicket extends StatelessWidget {
     );
   }
 
-  Widget createLoginButton(){
-    return Container(padding:const EdgeInsets.only(top:32),
-    child: RaisedButton(
-    child: Text('INGRESAR'), 
-    onPressed:(){} ,),); //funcion vacia para el boton
+  Widget createLoginButton() {
+    return Container(
+      padding: const EdgeInsets.only(top: 32),
+      child: RaisedButton(
+        child: Text('INGRESAR'),
+        onPressed: () {},
+      ),
+    ); //funcion vacia para el boton
   }
-
-
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 //metodos
-class Page3 extends StatelessWidget {
+class HelpPage extends StatelessWidget {
   Widget createTituloTarea() {
     return Padding(
       padding:
